@@ -11,3 +11,4 @@ with open('scientist.txt', encoding='utf8', ) as file:
         if date < preparation_date.get(preparation, '99999999999999999999'):
             answer.remove(person)
     print(answer)
+
